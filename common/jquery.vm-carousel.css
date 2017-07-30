@@ -1,0 +1,16 @@
+
+/* ========================================================================= *\
+    vmcarousel plugin
+\* ========================================================================= */
+
+.vmc-container{position: relative;}
+.vmc-viewport{overflow: hidden;}
+
+.vmcarousel{list-style-type: none; padding: 0; margin: 0; width: 1000%;}
+.vmcarousel:after{content: ''; display: table; clear: both;}
+.vmcarousel > li{float: left;}
+.vmcarousel > li img{ display: block; margin: 0 auto; max-width: 100%;}
+
+.vmc-container img[src$=".svg"]{width: 100% !important; height: auto !important; max-height: 100%;}
+
+.notransition{-webkit-transition: none !important; -moz-transition: none !important; -o-transition: none !important; -ms-transition: none !important; transition: none !important;}
